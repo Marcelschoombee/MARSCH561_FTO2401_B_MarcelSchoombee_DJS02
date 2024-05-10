@@ -19,7 +19,7 @@ form.addEventListener("submit", (event) => {
 
       if (dividerNum === 0) {
         alert("Division not performed. Invalid number provided. Try again");
-        console.Error("Division not performed. Invalid number provided. Try again");
+        console.error("Division not performed. Invalid number provided. Try again");
         return dividend / divider; // Division not performed. Invalid number provided. Try again
       }
     
